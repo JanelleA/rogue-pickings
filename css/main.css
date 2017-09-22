@@ -1,0 +1,89 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  height: 200px;
+  width: 380px;
+  float: left;
+  border: 1px solid lightgrey;
+  padding-left: 10px;
+}
+
+header {
+  height: 400px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+header span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 25px;
+}
+
+nav ul li {
+  color: #77a466;
+  display: inline-block;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+header img {
+  border: 2px solid #77a466;
+}
+
+#about h2 {
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#work {
+  height: 210px;
+}
+
+#work h3 {
+  text-transform: uppercase;
+}
+
+#work p {
+  padding-right: 75px;
+}
+
+.emphasis {
+  color: #77a466;
+}
+
+footer {
+  height: 80px;
+}
+
+footer p {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer span {
+  color: #77a466;
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  text-transform: lowercase;
+}
