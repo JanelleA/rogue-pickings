@@ -14,10 +14,42 @@ h1, h4 {
   text-transform: uppercase;
 }
 
+header {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
 header h1 {
+  border-bottom: 3px solid #77a466;
   font-size: 1.875em;
   padding: 15px 0;
   width: auto;
+}
+
+header span {
+  color: #77a466;
+}
+
+header nav {
+ padding: 20px 0;
+}
+
+header nav a {
+  color: #77a466;
+  display: block;
+  font-size: 0.875em;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.top-section,
+.bottom-section {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
 }
 
 h3 {
@@ -40,40 +72,6 @@ p {
   font-size: 0.875em;
   line-height: 21px;
   padding: 0px 30px;
-}
-
-header {
-  border-bottom: 3px solid #77a466;
-  height: 80px;
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
-}
-
-header span {
-  color: #77a466;
-}
-
-header nav {
-  float: left;
-  padding: 30px 140px;
-}
-
-header nav a {
-  color: #77a466;
-  display: block;
-  font-size: 0.875em;
-  font-weight: bold;
-  padding: 10px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.top-section,
-.bottom-section {
-  clear: both;
-  margin: 0 auto;
-  width: 100%;
 }
 
 .main-image {
@@ -105,11 +103,6 @@ header nav a {
   float: left;
   height: auto;
   width: 100%;
-}
-
-.section-one,
-.section-two {
-  border-right: 1px solid lightgrey;
 }
 
 .section-one h4,
@@ -156,10 +149,12 @@ footer span {
 }
 
 /*----- TABLET -----*/
-@media (min-width: 768px) and (max-width: 940px) {
+@media (min-width: 768px) {
+  header h1 {
+    border-bottom: 3px solid #77a466;
+  }
   header nav {
-    float: left;
-    padding: 30px 100px;
+    padding: 20px 0;
   }
   header nav a {
     display: inline;
@@ -169,11 +164,13 @@ footer span {
 }
 
 /*-----DESKTOP -----*/
-@media (min-width: 941px) {
+@media (min-width: 940px) {
   header {
+    border-bottom: 3px solid #77a466;
     height: 110px;
   }
   header h1 {
+    border-bottom: none;
     float: left;
     text-align: left;
   }
@@ -201,6 +198,10 @@ footer span {
   .section-two,
   .section-three {
     width: 33%;
+  }
+  .section-one,
+  .section-two {
+    border-right: 1px solid lightgrey;
   }
   .section-one h4 {
     padding: 10px 0px;
