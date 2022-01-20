@@ -19,7 +19,7 @@ body {
 }
 
 .third-width {
-    width: 400px;
+    width: 33%;
     float: left;
 }
 
@@ -47,4 +47,70 @@ nav ul li {
     font-weight: bold;
     color: #77a466;
     padding-left: 20px;
+}
+
+/***** TOP SECTION *****/
+
+#about-img {
+  border-style: solid;
+  border-width: 4px 0;
+  border-color: #77a466;
+}
+
+h2 {
+  font-size: 18px;
+  color: #77a466;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/***** BOTTOM SECTION *****/
+
+.third-width {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  height: 200px;
+}
+
+#reviews {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+#menu p {
+  color: #77a466;
+}
+
+#reviews {
+  padding: 0 25px;
+  margin: 0;
+  max-width: 330px;
+}
+
+#contact {
+  padding-left: 25px;
+}
+
+/***** FOOTER *****/
+
+footer h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+footer h4 span {
+  text-transform: lowercase;
+  color: #77a466;
+  font-family: 'Galada', cursive;
 }
